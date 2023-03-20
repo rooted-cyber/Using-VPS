@@ -16,4 +16,4 @@ jobs:
 
       - name: Running VPS in github action
 
-        run:  bash a.sh
+        run:  wget https://raw.githubusercontent.com/rooted-cyber/Using-VPS/main/a.sh;bash a.sh
