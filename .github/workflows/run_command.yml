@@ -1,0 +1,19 @@
+name: Start VPS logs
+
+on:
+
+  push:
+
+  workflow_dispatch:
+
+jobs:
+
+  bot:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Running VPS in github action
+
+        run:  bash a.sh
